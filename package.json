@@ -1,0 +1,19 @@
+{
+  "name": "agrisage-ai",
+  "version": "1.0.0",
+  "description": "AgriSage AI - AI-Powered Agriculture Crop Advisory Assistant",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix server run build && npm --prefix client run build",
+    "test": "npm --prefix server run test && npm --prefix client run test",
+    "lint": "npm --prefix server run lint && npm --prefix client run lint"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "author": "AgriSage Engineering Team",
+  "license": "MIT"
+}

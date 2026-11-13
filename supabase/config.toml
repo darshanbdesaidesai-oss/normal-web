@@ -1,0 +1,11 @@
+# Supabase local / cli config
+project_id = "agrisage-ai"
+
+[api]
+port = 54321
+
+[db]
+port = 54322
+
+[studio]
+port = 54323
